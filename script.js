@@ -247,7 +247,7 @@ document.addEventListener('keydown', function(e){
 
 const createDots = function(){
   slides.forEach(function(_, i){
-    dotContainer.insertAdjacentHTML('beforeend',<button class="dots__dot" data-slide="${i}"></button>)
+    dotContainer.insertAdjacentHTML('beforeend',`<button class="dots__dot" data-slide="${i}"></button>`)
   });
 };
 
